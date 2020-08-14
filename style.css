@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+section{
+	background-image: url(rabbi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.mid{
+	overflow: hidden;
+	background: rgba(0,0,0,.7);
+}
+.profile-photo{
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+}
+.profile-photo img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.profile-photo h4{
+	font-family: Comic Sans MS;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	color: #fff;
+}
+.link{
+	width: 400px;
+	text-align: center;	
+	margin: auto;
+}
+.item{
+	background: #636e72;
+	padding: 20px;
+	border-radius: 20px;
+	border: 2px solid #636e72;
+	margin-bottom: 15px;
+}
+.item:hover{
+	background: transparent;
+	border: 2px solid #fff;
+}
+.item a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+.item i{
+	float: left;
+}
